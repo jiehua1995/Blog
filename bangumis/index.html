@@ -1,0 +1,559 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bilibili Bangumi | 青行三の个人博客</title><meta name="description" content="Bilibili Bangumi"><meta name="author" content="Jie"><meta name="copyright" content="Jie"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://www.google-analytics.com" crossorigin="crossorigin"/><link rel="preconnect" href="https://hm.baidu.com"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="9OQNmkj25M"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Bilibili Bangumi"><meta name="twitter:description" content="Bilibili Bangumi"><meta name="twitter:image" content="https://blog.jiehua1995.xyz/img/avatar.jpeg"><meta property="og:type" content="website"><meta property="og:title" content="Bilibili Bangumi"><meta property="og:url" content="https://blog.jiehua1995.xyz/bangumis/"><meta property="og:site_name" content="青行三の个人博客"><meta property="og:description" content="Bilibili Bangumi"><meta property="og:image" content="https://blog.jiehua1995.xyz/img/avatar.jpeg"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css" ><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="canonical" href="https://blog.jiehua1995.xyz/bangumis/"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-3613051181626775',
+  enable_page_level_ads: 'true'
+});</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?cd49e50cd40685286dd32365be48c5d0";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-86660611-1', 'auto');
+ga('send', 'pageview');
+</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  bookmark: {
+    message_prev: 'Press',
+    message_next: 'to bookmark this page'
+  },
+  runtime_unit: 'days',
+  runtime: true,
+  copyright: {"languages":{"author":"Author: Jie","link":"Link: ","source":"Source: 青行三の个人博客","info":"Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source."}},
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"message_prev":"Press","message_next":"to bookmark this page"},"chs_to_cht":"Traditional Chinese Activated Manually","cht_to_chs":"Simplified Chinese Activated Manually","day_to_night":"Dark Mode Activated Manually","night_to_day":"Light Mode Activated Manually","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
+  baiduPush: true,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: 'false',
+  isFontAwesomeV5: false,
+  isPhotoFigcaption: true
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: false,
+  isSidebar: false  
+  }</script><noscript><style>
+#page-header {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 4.2.1"></head><body><canvas class="fireworks"></canvas><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.jpeg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">15</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">Tags</div><div class="length_num">11</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">Categories</div><div class="length_num">13</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="https://travellings.now.sh" target="_blank" rel="noopener"><i class="fa-fw fa fa-plane"></i><span> Travelling</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> Entertainment</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/books/"><i class="fa-fw fa fa-book"></i><span> Books</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> Movies</span></a></li><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/photos/"><i class="fa-fw fa fa-picture-o"></i><span> Photos</span></a></li><li><a class="site-page" href="/bangumis/"><i class="fa-fw fa fa-video-camera"></i><span> Bilibili</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-th-list" aria-hidden="true"></i><span> Websites</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://nav.jiehua1995.xyz" target="_blank" rel="noopener"><i class="fa-fw fa fa-map-o"></i><span> Navigation</span></a></li><li><a class="site-page" href="https://abc.jiehua1995.xyz" target="_blank" rel="noopener"><i class="fa-fw fa fa-search"></i><span> Search</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> Friends</span></a></div></div></div></div><div id="body-wrap"><div class="not-index-bg" id="nav" style="background-image: url(https://cdn.jsdelivr.net/gh/jiehua1995/CDN@master/ImageHosing/top.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">青行三の个人博客</a></span><span class="pull_right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="https://travellings.now.sh" target="_blank" rel="noopener"><i class="fa-fw fa fa-plane"></i><span> Travelling</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> Entertainment</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/books/"><i class="fa-fw fa fa-book"></i><span> Books</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> Movies</span></a></li><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/photos/"><i class="fa-fw fa fa-picture-o"></i><span> Photos</span></a></li><li><a class="site-page" href="/bangumis/"><i class="fa-fw fa fa-video-camera"></i><span> Bilibili</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-th-list" aria-hidden="true"></i><span> Websites</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://nav.jiehua1995.xyz" target="_blank" rel="noopener"><i class="fa-fw fa fa-map-o"></i><span> Navigation</span></a></li><li><a class="site-page" href="https://abc.jiehua1995.xyz" target="_blank" rel="noopener"><i class="fa-fw fa fa-search"></i><span> Search</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> Friends</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="page_site-info"><h1 id="site_title">Bilibili Bangumi</h1></div></div><main class="layout_page" id="content-inner"><div id="page"><div id="article-container">
+<blockquote>
+    <p><strong>見（み）えたぞ！ エンディングが</strong></p>
+</blockquote>
+
+<style>
+    .bangumi-tabs{margin-bottom:15px;margin-top:15px}.bangumi-tab{padding:5px}a.bangumi-tab{text-decoration:none}.bangumi-active{background:#657b83;color:#fff}.bangumi-item{position:relative;clear:both;min-height:170px;padding:10px 0;border-bottom:1px solid #ddd}@media screen and (max-width:600px){.bangumi-item{width:100%}}.bangumi-picture{position:absolute;left:0;top:10px;width:110px}.bangumi-info{padding-left:120px}.bangumi-meta{font-size:12px;padding-right:10px}.bangumi-comments{font-size:12px}.bangumi-pagination{margin-top:15px;text-align:center;margin-bottom:10px}.bangumi-button{padding:5px}.bangumi-button:hover{background:#657b83;color:#fff}.bangumi-hide{display:none}.bangumi-show{display:block}.bangumi-title{font-size:18px}.bangumi-title a{line-height:1;text-decoration:none}.bangumi-info-items{font-size:12px;color:#2fd8d8;padding-top:10px;line-height:1;float:left;width:100%}.bangumi-info-item{display:inline-block;width:13%;border-right:1px solid #2fd8d8;text-align:center;height:34px}.bangumi-info-label{display:block;line-height:12px}.bangumi-info-item em{display:block;padding-top:6px;line-height:17px;font-style:normal;font-weight:700}.bangumi-info-total{padding-top:11px;display:block;line-height:12px}.bangumi-info-item-score{border-right:1px solid #0000;width:50px}.bangumi-info-label-em{color:#0000;line-height:6px!important;padding:0!important}@media (max-width:650px){.bangumi-coin{display:none}.bangumi-info-item{width:16%}}@media (max-width:590px){.bangumi-danmaku{display:none}.bangumi-info-item{width:19%}}@media (max-width:520px){.bangumi-play{display:none}.bangumi-info-item{width:24%}}@media (max-width:480px){.bangumi-follow{display:none}.bangumi-info-item{width:30%}}@media (max-width:400px){.bangumi-area{display:none}.bangumi-info-item{width:45%}}
+</style>
+<div class="bangumi-tabs">
+    <a class="bangumi-tab" id="bangumi-tab1" href="javascript:;" rel="external" target="_self" onclick="return false">
+    Wish
+    (0)</a>
+    <a class="bangumi-tab" id="bangumi-tab2" href="javascript:;" rel="external" target="_self" onclick="return false">
+        Watching
+        (9)</a>
+    <a class="bangumi-tab" id="bangumi-tab3" href="javascript:;" rel="external" target="_self" onclick="return false">
+        Watched
+        (0)</a>
+</div>
+<div>
+    <div id="bangumi-item1">
+        
+        <div class="bangumi-pagination">
+    <a class="bangumi-button bangumi-firstpage" href="javascript:;" target="_self" onclick="return false"> Top</a>
+    <a class="bangumi-button bangumi-previouspage" href="javascript:;" target="_self" onclick="return false">Prev</a>
+    <span class="bangumi-pagenum">2 / 3</span>
+    <a class="bangumi-button bangumi-nextpage" href="javascript:;" target="_self" onclick="return false">Next</a>
+    <a class="bangumi-button bangumi-lastpage" href="javascript:;" target="_self" onclick="return false">End</a>
+</div>
+    </div>
+    <div id="bangumi-item2">
+        
+        <div class="bangumi-item">
+    <div class="bangumi-picture"><img src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/38e2a273f528fd01c34f1fc4df0f69c64487efad.png@220w_280h.webp" referrerPolicy="no-referrer" />
+    </div>
+    <div class="bangumi-info">
+        <div class="bangumi-title">
+            <a target="_blank" href="https://www.bilibili.com/bangumi/media/md28228813/">名侦探柯南（中配）</a>
+        </div>
+        <div class="bangumi-meta">
+            <span class="bangumi-info-items">
+                <span class="bangumi-info-item">
+                
+                <span class="bangumi-info-total">未完结</span><em
+                        class="bangumi-info-label-em">0</em>
+                </span>
+                
+                
+                <span class="bangumi-info-item bangumi-area">
+                    <span class="bangumi-info-label">番剧</span> <em>日本</em>
+                </span>
+                
+                <span class="bangumi-info-item bangumi-play">
+                    <span class="bangumi-info-label">总播放</span> <em>597.8 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-follow">
+                    <span class="bangumi-info-label">追番人数</span> <em>18.0 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-coin">
+                    <span class="bangumi-info-label">硬币数</span> <em>2.2 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-danmaku">
+                    <span class="bangumi-info-label">弹幕总数</span> <em>37.7 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-info-item-score">
+                    <span class="bangumi-info-label">评分</span> <em>9.8</em>
+                </span>
+            </span>
+        </div>
+        <div class="bangumi-comments">简介：【部分集数(#942-993)将于2021年陆续上线】主角工藤新一原本是一位颇具名声的高中生侦探，在目击黑暗组织的地下交易后，正准备追踪时却被突袭击昏，并被灌下代号为“APTX4869”的不明药物。后... </div>
+    </div>
+</div>
+        
+        <div class="bangumi-item">
+    <div class="bangumi-picture"><img src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/38e2a273f528fd01c34f1fc4df0f69c64487efad.png@220w_280h.webp" referrerPolicy="no-referrer" />
+    </div>
+    <div class="bangumi-info">
+        <div class="bangumi-title">
+            <a target="_blank" href="https://www.bilibili.com/bangumi/media/md28228775/">名侦探柯南</a>
+        </div>
+        <div class="bangumi-meta">
+            <span class="bangumi-info-items">
+                <span class="bangumi-info-item">
+                
+                <span class="bangumi-info-total">未完结</span><em
+                        class="bangumi-info-label-em">0</em>
+                </span>
+                
+                
+                <span class="bangumi-info-item bangumi-area">
+                    <span class="bangumi-info-label">番剧</span> <em>日本</em>
+                </span>
+                
+                <span class="bangumi-info-item bangumi-play">
+                    <span class="bangumi-info-label">总播放</span> <em>1676.9 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-follow">
+                    <span class="bangumi-info-label">追番人数</span> <em>120.2 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-coin">
+                    <span class="bangumi-info-label">硬币数</span> <em>13.3 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-danmaku">
+                    <span class="bangumi-info-label">弹幕总数</span> <em>110.6 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-info-item-score">
+                    <span class="bangumi-info-label">评分</span> <em>9.9</em>
+                </span>
+            </span>
+        </div>
+        <div class="bangumi-comments">简介：【部分集数(#942-993)将于2021年陆续上线】主角工藤新一原本是一位颇具名声的高中生侦探，在目击黑暗组织的地下交易后，正准备追踪时却被突袭击昏，并被灌下代号为“APTX4869”的不明药物。后... </div>
+    </div>
+</div>
+        
+        <div class="bangumi-item">
+    <div class="bangumi-picture"><img src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/3ee3e267731be4cac9ef39a905714de06fd66d59.jpg@220w_280h.webp" referrerPolicy="no-referrer" />
+    </div>
+    <div class="bangumi-info">
+        <div class="bangumi-title">
+            <a target="_blank" href="https://www.bilibili.com/bangumi/media/md78112/">敦君与女朋友</a>
+        </div>
+        <div class="bangumi-meta">
+            <span class="bangumi-info-items">
+                <span class="bangumi-info-item">
+                
+                <span class="bangumi-info-total">全25话</span><em
+                        class="bangumi-info-label-em">0</em>
+                </span>
+                
+                
+                <span class="bangumi-info-item bangumi-area">
+                    <span class="bangumi-info-label">番剧</span> <em>日本</em>
+                </span>
+                
+                <span class="bangumi-info-item bangumi-play">
+                    <span class="bangumi-info-label">总播放</span> <em>1325.5 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-follow">
+                    <span class="bangumi-info-label">追番人数</span> <em>71.0 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-coin">
+                    <span class="bangumi-info-label">硬币数</span> <em>4.1 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-danmaku">
+                    <span class="bangumi-info-label">弹幕总数</span> <em>3.6 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-info-item-score">
+                    <span class="bangumi-info-label">评分</span> <em>9.3</em>
+                </span>
+            </span>
+        </div>
+        <div class="bangumi-comments">简介：青梅竹马的敦君和小音是一对恋人。但，敦君却以粗暴的言辞冷淡对待小音，总是一副严苛的态度……。
+但那却是敦君的“最喜欢小音了！”这种心情的反面表现。敦君，以及对于敦君的这种言行毫不在意地“深爱敦君”的小... </div>
+    </div>
+</div>
+        
+        <div class="bangumi-item">
+    <div class="bangumi-picture"><img src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/d7b09da3f43b1d84bed32c61d07541be6204e8de.jpg@220w_280h.webp" referrerPolicy="no-referrer" />
+    </div>
+    <div class="bangumi-info">
+        <div class="bangumi-title">
+            <a target="_blank" href="https://www.bilibili.com/bangumi/media/md5839/">一禅小和尚</a>
+        </div>
+        <div class="bangumi-meta">
+            <span class="bangumi-info-items">
+                <span class="bangumi-info-item">
+                
+                <span class="bangumi-info-total">全60话</span><em
+                        class="bangumi-info-label-em">0</em>
+                </span>
+                
+                
+                <span class="bangumi-info-item bangumi-area">
+                    <span class="bangumi-info-label">国创</span> <em>中国大陆</em>
+                </span>
+                
+                <span class="bangumi-info-item bangumi-play">
+                    <span class="bangumi-info-label">总播放</span> <em>2722.8 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-follow">
+                    <span class="bangumi-info-label">追番人数</span> <em>31.0 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-coin">
+                    <span class="bangumi-info-label">硬币数</span> <em>8.4 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-danmaku">
+                    <span class="bangumi-info-label">弹幕总数</span> <em>7.3 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-info-item-score">
+                    <span class="bangumi-info-label">评分</span> <em>9.6</em>
+                </span>
+            </span>
+        </div>
+        <div class="bangumi-comments">简介：讲述了小和尚一禅和师父以及身边各种人和事，并从中领悟人生的道理，领会身处尘世的芸芸众生的喜怒哀乐，怨憎会爱别离与求不得。用小和尚的视角看世界，用老和尚的话语去阐述人生的各种道理。... </div>
+    </div>
+</div>
+        
+        <div class="bangumi-item">
+    <div class="bangumi-picture"><img src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/72f01765eea7d62e03161d637db7905cec63a8b2.jpg@220w_280h.webp" referrerPolicy="no-referrer" />
+    </div>
+    <div class="bangumi-info">
+        <div class="bangumi-title">
+            <a target="_blank" href="https://www.bilibili.com/bangumi/media/md2031/">铁胆火车侠 第一季</a>
+        </div>
+        <div class="bangumi-meta">
+            <span class="bangumi-info-items">
+                <span class="bangumi-info-item">
+                
+                <span class="bangumi-info-total">全51话</span><em
+                        class="bangumi-info-label-em">0</em>
+                </span>
+                
+                
+                <span class="bangumi-info-item bangumi-area">
+                    <span class="bangumi-info-label">番剧</span> <em>日本</em>
+                </span>
+                
+                <span class="bangumi-info-item bangumi-play">
+                    <span class="bangumi-info-label">总播放</span> <em>53.2 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-follow">
+                    <span class="bangumi-info-label">追番人数</span> <em>3.7 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-coin">
+                    <span class="bangumi-info-label">硬币数</span> <em>755</em>
+                </span>
+                <span class="bangumi-info-item bangumi-danmaku">
+                    <span class="bangumi-info-label">弹幕总数</span> <em>1.4 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-info-item-score">
+                    <span class="bangumi-info-label">评分</span> <em>9.4</em>
+                </span>
+            </span>
+        </div>
+        <div class="bangumi-comments">简介：《铁胆火车侠》是日本TOMY公司最新摄制的一部动画片。故事的主人公一边是中学生哲雪和米娜娅，一边是以博士号为首的希望号、阳光号等铁胆火车侠。这些火车侠平时每天都各自飞驰在日本各地的高速铁路线上，运送着... </div>
+    </div>
+</div>
+        
+        <div class="bangumi-item">
+    <div class="bangumi-picture"><img src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/image/977d915210fda50930ca824bd0711a11dda945ab.png@220w_280h.webp" referrerPolicy="no-referrer" />
+    </div>
+    <div class="bangumi-info">
+        <div class="bangumi-title">
+            <a target="_blank" href="https://www.bilibili.com/bangumi/media/md28223860/">理科生坠入情网，故尝试证明。</a>
+        </div>
+        <div class="bangumi-meta">
+            <span class="bangumi-info-items">
+                <span class="bangumi-info-item">
+                
+                <span class="bangumi-info-total">全12话</span><em
+                        class="bangumi-info-label-em">0</em>
+                </span>
+                
+                
+                <span class="bangumi-info-item bangumi-area">
+                    <span class="bangumi-info-label">番剧</span> <em>日本</em>
+                </span>
+                
+                <span class="bangumi-info-item bangumi-play">
+                    <span class="bangumi-info-label">总播放</span> <em>3245.7 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-follow">
+                    <span class="bangumi-info-label">追番人数</span> <em>203.2 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-coin">
+                    <span class="bangumi-info-label">硬币数</span> <em>32.7 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-danmaku">
+                    <span class="bangumi-info-label">弹幕总数</span> <em>65.6 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-info-item-score">
+                    <span class="bangumi-info-label">评分</span> <em>9.7</em>
+                </span>
+            </span>
+        </div>
+        <div class="bangumi-comments">简介：如果对研究充满热情的科学女孩和科学男孩坠入爱河怎么办？
+彩玉大学理科研究生的才女，冰室菖蒲向同一实验室雪村心夜告白。
+当然“喜欢”是没有逻辑根据的！但是，作为理工学专业的学生，“如果不能用逻辑证明自己... </div>
+    </div>
+</div>
+        
+        <div class="bangumi-item">
+    <div class="bangumi-picture"><img src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/6b6b2423ceff5fbdfbbee3a09a85173b8bd59a03.jpg@220w_280h.webp" referrerPolicy="no-referrer" />
+    </div>
+    <div class="bangumi-info">
+        <div class="bangumi-title">
+            <a target="_blank" href="https://www.bilibili.com/bangumi/media/md1699/">四月是你的谎言</a>
+        </div>
+        <div class="bangumi-meta">
+            <span class="bangumi-info-items">
+                <span class="bangumi-info-item">
+                
+                <span class="bangumi-info-total">全22话</span><em
+                        class="bangumi-info-label-em">0</em>
+                </span>
+                
+                
+                <span class="bangumi-info-item bangumi-area">
+                    <span class="bangumi-info-label">番剧</span> <em>日本</em>
+                </span>
+                
+                <span class="bangumi-info-item bangumi-play">
+                    <span class="bangumi-info-label">总播放</span> <em>1.2 亿</em>
+                </span>
+                <span class="bangumi-info-item bangumi-follow">
+                    <span class="bangumi-info-label">追番人数</span> <em>401.9 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-coin">
+                    <span class="bangumi-info-label">硬币数</span> <em>56.5 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-danmaku">
+                    <span class="bangumi-info-label">弹幕总数</span> <em>428.7 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-info-item-score">
+                    <span class="bangumi-info-label">评分</span> <em>9.8</em>
+                </span>
+            </span>
+        </div>
+        <div class="bangumi-comments">简介：从小接受母亲严格的钢琴训练，并在各种音乐比赛上获胜的“神童”——有马公生，11岁那年因为母亲去世，他从此变得听不见钢琴的声音，因而放弃了弹奏钢琴。
+国中三年级时，在青梅竹马椿的引见下，公生认识了与他同... </div>
+    </div>
+</div>
+        
+        <div class="bangumi-item">
+    <div class="bangumi-picture"><img src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/94466dbf154b7da5fa0f1f20dae476efe8892368.jpg@220w_280h.webp" referrerPolicy="no-referrer" />
+    </div>
+    <div class="bangumi-info">
+        <div class="bangumi-title">
+            <a target="_blank" href="https://www.bilibili.com/bangumi/media/md2660/">我的妹妹不可能那么可爱 第一季</a>
+        </div>
+        <div class="bangumi-meta">
+            <span class="bangumi-info-items">
+                <span class="bangumi-info-item">
+                
+                <span class="bangumi-info-total">全16话</span><em
+                        class="bangumi-info-label-em">0</em>
+                </span>
+                
+                
+                <span class="bangumi-info-item bangumi-area">
+                    <span class="bangumi-info-label">番剧</span> <em>日本</em>
+                </span>
+                
+                <span class="bangumi-info-item bangumi-play">
+                    <span class="bangumi-info-label">总播放</span> <em>2875.7 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-follow">
+                    <span class="bangumi-info-label">追番人数</span> <em>189.6 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-coin">
+                    <span class="bangumi-info-label">硬币数</span> <em>13.1 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-danmaku">
+                    <span class="bangumi-info-label">弹幕总数</span> <em>241.7 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-info-item-score">
+                    <span class="bangumi-info-label">评分</span> <em>9.2</em>
+                </span>
+            </span>
+        </div>
+        <div class="bangumi-comments">简介：电视动画《我的妹妹哪有这么可爱！》改编自由日本轻小说家伏见司原作的同名轻小说，剧情对应原作小说的前5卷内容。... </div>
+    </div>
+</div>
+        
+        <div class="bangumi-item">
+    <div class="bangumi-picture"><img src="https://cdn.jsdelivr.net/npm/hexo-bilibili-bangumi@1.2.0/lib/img/loading.gif" data-src="https://i0.hdslb.com/bfs/bangumi/29d001c8083a224da99b72239be5680c6ac907e7.jpg@220w_280h.webp" referrerPolicy="no-referrer" />
+    </div>
+    <div class="bangumi-info">
+        <div class="bangumi-title">
+            <a target="_blank" href="https://www.bilibili.com/bangumi/media/md6043/">第六天魔王</a>
+        </div>
+        <div class="bangumi-meta">
+            <span class="bangumi-info-items">
+                <span class="bangumi-info-item">
+                
+                <span class="bangumi-info-total">全24话</span><em
+                        class="bangumi-info-label-em">0</em>
+                </span>
+                
+                
+                <span class="bangumi-info-item bangumi-area">
+                    <span class="bangumi-info-label">国创</span> <em>中国大陆</em>
+                </span>
+                
+                <span class="bangumi-info-item bangumi-play">
+                    <span class="bangumi-info-label">总播放</span> <em>572.0 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-follow">
+                    <span class="bangumi-info-label">追番人数</span> <em>12.2 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-coin">
+                    <span class="bangumi-info-label">硬币数</span> <em>8586</em>
+                </span>
+                <span class="bangumi-info-item bangumi-danmaku">
+                    <span class="bangumi-info-label">弹幕总数</span> <em>5.3 万</em>
+                </span>
+                <span class="bangumi-info-item bangumi-info-item-score">
+                    <span class="bangumi-info-label">评分</span> <em>9.3</em>
+                </span>
+            </span>
+        </div>
+        <div class="bangumi-comments">简介：第六天魔王又名天魔，为佛教欲界神祇之首。
+第六天他化自在天就位于欲界的顶部，传说人如果超越第六天，就能摆脱饮食男女的欲念束缚，走向成佛之路。
+“佛与魔只有一线之隔！”... </div>
+    </div>
+</div>
+        
+        <div class="bangumi-pagination">
+    <a class="bangumi-button bangumi-firstpage" href="javascript:;" target="_self" onclick="return false"> Top</a>
+    <a class="bangumi-button bangumi-previouspage" href="javascript:;" target="_self" onclick="return false">Prev</a>
+    <span class="bangumi-pagenum">2 / 3</span>
+    <a class="bangumi-button bangumi-nextpage" href="javascript:;" target="_self" onclick="return false">Next</a>
+    <a class="bangumi-button bangumi-lastpage" href="javascript:;" target="_self" onclick="return false">End</a>
+</div>
+    </div>
+    <div id="bangumi-item3">
+        
+        <div class="bangumi-pagination">
+    <a class="bangumi-button bangumi-firstpage" href="javascript:;" target="_self" onclick="return false"> Top</a>
+    <a class="bangumi-button bangumi-previouspage" href="javascript:;" target="_self" onclick="return false">Prev</a>
+    <span class="bangumi-pagenum">2 / 3</span>
+    <a class="bangumi-button bangumi-nextpage" href="javascript:;" target="_self" onclick="return false">Next</a>
+    <a class="bangumi-button bangumi-lastpage" href="javascript:;" target="_self" onclick="return false">End</a>
+</div>
+    </div>
+</div>
+<script>
+    "use strict";Element.prototype.siblings=function(){for(var a=[],b=this.parentNode.children,c=0;c<b.length;c++)b[c]!==this&&a.push(b[c]);return a};function tabClick(){this.classList.add("bangumi-active");for(var a=this.siblings(),b=0;b<a.length;b++)a[b].classList.remove("bangumi-active");//显示对应板块
+var c=this.id.replace("tab","item"),d=document.getElementById(c);d.classList.remove("bangumi-hide"),d.classList.add("bangumi-show"),a=document.getElementById(c).siblings();for(var e=0;e<a.length;e++)a[e].classList.remove("bangumi-show"),a[e].classList.add("bangumi-hide")}for(var tabs=document.getElementsByClassName("bangumi-tab"),i=0;i<tabs.length;i++)tabs[i].onclick=tabClick,tabs[i].onclick.apply(tabs[i]);
+
+    tabs[1].click();
+    "use strict";var firstpages=document.getElementsByClassName("bangumi-firstpage"),previouspages=document.getElementsByClassName("bangumi-previouspage"),nextpages=document.getElementsByClassName("bangumi-nextpage"),lastpages=document.getElementsByClassName("bangumi-lastpage"),pagenums=document.getElementsByClassName("bangumi-pagenum");function makePageNum(a,b){var c=Math.ceil;return a+1+" / "+c(0==b.length/10?1:c(b.length/10))}function firstBtn(){var a=this.parentNode.siblings();displayPage(a,0),this.parentNode.getElementsByClassName("bangumi-pagenum")[0].innerText=makePageNum(0,a)}function previousBtn(){var a=this.parentNode.siblings(),b=this.parentNode.getElementsByClassName("bangumi-pagenum")[0].innerText;b=b.substr(0,b.indexOf("/")-1),b=parseInt(b,10)-1,0<b&&b--,displayPage(a,b),this.parentNode.getElementsByClassName("bangumi-pagenum")[0].innerText=makePageNum(b,a)}function nextBtn(){var a=this.parentNode.siblings(),b=this.parentNode.getElementsByClassName("bangumi-pagenum")[0].innerText;b=b.substr(0,b.indexOf("/")-1),b=parseInt(b,10)-1,b<Math.ceil(a.length/10)-1&&b++,displayPage(a,b),this.parentNode.getElementsByClassName("bangumi-pagenum")[0].innerText=makePageNum(b,a)}function lastBtn(){var a=Math.ceil,b=this.parentNode.siblings();displayPage(b,a(b.length/10)-1),this.parentNode.getElementsByClassName("bangumi-pagenum")[0].innerText=makePageNum(-1==a(b.length/10)-1?0:a(b.length/10)-1,b)}function displayPage(a,b){for(var c=0;c<a.length;c++)if(Math.floor(c/10)===b){a[c].classList.remove("bangumi-hide");var d=a[c].getElementsByTagName("img")[0];d.src=d.getAttribute("data-src")}else a[c].classList.add("bangumi-hide")}for(var i=0;i<firstpages.length;i++){firstpages[i].onclick=firstBtn,previouspages[i].onclick=previousBtn,nextpages[i].onclick=nextBtn,lastpages[i].onclick=lastBtn;//set page num
+var size=pagenums[i].parentNode.siblings().length;pagenums[i].innerText="1 / "+(0===Math.ceil(size/10)?1:Math.ceil(size/10)),firstpages[i].click()}
+
+    "use strict";(function(){var a=new Image;a.onload=a.onerror=function(){if(2!=a.height){var b=document.createElement("script");b.type="text/javascript",b.async=!0;var c=document.getElementsByTagName("script")[0];b.src="//cdn.jsdelivr.net/npm/webpjs@0.0.2/webpjs.min.js",c.parentNode.insertBefore(b,c)}},a.src="data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA"})();
+
+</script></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> Comment</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+
+window.valine = new Valine({
+  el:'#vcomment',
+  notify: true,
+  verify: false,
+  appId: 'oTUGEYl64DgXwvSznk6rNHWE-gzGzoHsz',
+  appKey: 'gfq1537zNoaht7OxCPO65HM3',
+  placeholder: 'Please leave your footprints',
+  avatar: 'monsterid',
+  meta: guest_info,
+  pageSize: '10',
+  lang: 'en',
+  recordIP: false,
+  serverURLs: ''
+});</script></div></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/avatar.jpeg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Jie</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">Articles</div><div class="length_num">15</div></a></div><div class="card-info-data-item is-center">      <a href="/tags"><div class="headline">Tags</div><div class="length_num">11</div></a></div><div class="card-info-data-item is-center">     <a href="/categories"><div class="headline">Categories</div><div class="length_num">13</div></a></div></div><div class="card-info-bookmark is-center"><a class="bookmark button--primary button--animated" id="bookmark-it" href="javascript:;" title="Add to bookmark" target="_self"><i class="fa fa-bookmark" aria-hidden="true"></i><span>Add to bookmark</span></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/jiehua1995" target="_blank" title=""><i class="fa fa-github" aria-hidden="true"></i></a><a class="social-icon" href="mailto:fdjiehua@gmail.com" target="_blank" title=""><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="https://weibo.com/jiehua1995" target="_blank" title=""><i class="fa fa-weibo" aria-hidden="true"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fa fa-bullhorn card-announcement-animation" aria-hidden="true"></i><span>Announcement</span></div><div class="weibo-light" style="width:100%; overflow:hidden"><iframe width="105%" height="300" frameborder="0" scrolling="no" style="overflow:hidden;margin-top:-25px;" src="https://widget.weibo.com/livestream/listlive.php?language=zh_cn&amp;width=0&amp;height=300&amp;uid=3826421909&amp;skin=9&amp;refer=0&amp;appkey=&amp;pic=1&amp;titlebar=0&amp;border=0&amp;publish=0&amp;atalk=1&amp;recomm=0&amp;at=0&amp;colordiy=1&amp;atopic=%E9%9D%92%E8%A1%8C%E4%B8%89&amp;color=FFFFFF,FFFFFF,000000,666666,FFFFFF,FFFFFF&amp;dpc=1"></iframe></div><div class="weibo-dark" style="width:100%; overflow:hidden"><iframe width="106%" height="300" frameborder="0" scrolling="no" style="overflow:hidden;margin-top:-25px;" src="https://widget.weibo.com/livestream/listlive.php?language=zh_cn&amp;width=0&amp;height=300&amp;uid=3826421909&amp;skin=9&amp;refer=0&amp;appkey=&amp;pic=1&amp;titlebar=0&amp;border=0&amp;publish=0&amp;atalk=1&amp;recomm=0&amp;at=0&amp;colordiy=1&amp;atopic=%E9%9D%92%E8%A1%8C%E4%B8%89&amp;color=202020,202020,a1a1a1,d9d9d9,202020,202020&amp;dpc=1"></iframe></div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fa fa-history" aria-hidden="true"></i><span>Recent Post</span></div><div class="aside-recent-item"><div class="aside-recent-post"><a href="/post/stock-abc-for-beginners/"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://cdn.jsdelivr.net/gh/jiehua1995/CDN@master/ImageHosing/20200518230100.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="笔记|投资新手极简股票课" alt="笔记|投资新手极简股票课"/></div><div class="aside-post-title"><div class="aside-post_title" href="/post/stock-abc-for-beginners/" title="笔记|投资新手极简股票课">笔记|投资新手极简股票课</div><time class="aside-post_meta post-meta__date" title="Created 2020-05-18 22:45:54">2020-05-18</time></div></a></div><div class="aside-recent-post"><a href="/post/covid-19/"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://cdn.jsdelivr.net/gh/jiehua1995/CDN@master/ImageHosing/20200430000046.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="COVID-19" alt="COVID-19"/></div><div class="aside-post-title"><div class="aside-post_title" href="/post/covid-19/" title="COVID-19">COVID-19</div><time class="aside-post_meta post-meta__date" title="Created 2020-05-09 23:55:19">2020-05-09</time></div></a></div><div class="aside-recent-post"><a href="/post/Rarely_used_websites/"><div class="aside-post-cover"><img class="aside-post-bg lazyload" data-src="https://cdn.jsdelivr.net/gh/jiehua1995/CDN@master/ImageHosing/20200427163524.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="Rarely used websites" alt="Rarely used websites"/></div><div class="aside-post-title"><div class="aside-post_title" href="/post/Rarely_used_websites/" title="Rarely used websites">Rarely used websites</div><time class="aside-post_meta post-meta__date" title="Created 2020-04-27 16:30:32">2020-04-27</time></div></a></div></div></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fa fa-tags" aria-hidden="true"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/Code/" style="font-size: 16px; color: #999">Code</a> <a href="/tags/Computer/" style="font-size: 20px; color: #99a1ac">Computer</a> <a href="/tags/Economy/" style="font-size: 16px; color: #999">Economy</a> <a href="/tags/Hexo/" style="font-size: 16px; color: #999">Hexo</a> <a href="/tags/Html/" style="font-size: 20px; color: #99a1ac">Html</a> <a href="/tags/Life/" style="font-size: 24px; color: #99a9bf">Life</a> <a href="/tags/Reading/" style="font-size: 16px; color: #999">Reading</a> <a href="/tags/SCI/" style="font-size: 16px; color: #999">SCI</a> <a href="/tags/Tampermonkey/" style="font-size: 16px; color: #999">Tampermonkey</a> <a href="/tags/Website/" style="font-size: 20px; color: #99a1ac">Website</a> <a href="/tags/Writing/" style="font-size: 16px; color: #999">Writing</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fa fa-archive" aria-hidden="true"></i><span>Archives</span></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/"><span class="archive-list-date">May 2020</span><span class="archive-list-count">2</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/"><span class="archive-list-date">April 2020</span><span class="archive-list-count">3</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/"><span class="archive-list-date">October 2019</span><span class="archive-list-count">2</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/"><span class="archive-list-date">September 2019</span><span class="archive-list-count">1</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/08/"><span class="archive-list-date">August 2019</span><span class="archive-list-count">6</span></a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/"><span class="archive-list-date">July 2019</span><span class="archive-list-count">1</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fa fa-line-chart" aria-hidden="true"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">Article :</div><div class="webinfo-article-count">15</div></div><div class="webinfo-item"><div class="webinfo-runtime-name">Run time :</div><div class="webinfo-runtime-count" id="webinfo-runtime-count" start_date="3/9/2020 00:11:00">     </div></div><div class="webinfo-item"><div class="webinfo-site-wordcount-name">Total Count :</div><div class="webinfo-site-wordcount">5k</div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">UV :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">PV :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://cdn.jsdelivr.net/gh/jiehua1995/CDN@master/ImageHosing/top.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 By Jie</div><div class="footer_custom_text">Welcome to my <a href="https://blog.jiehua1995.xyz">blog</a>.</div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="darkmode fa fa-moon-o" id="darkmode" title="Dark Mode"></i></div><div id="rightside-config-show"><div id="rightside_config" title="Setting"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-arrow-up" id="go-up" title="Back to top" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">Local search</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>Powered by</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js" ></script><script src="/js/utils.js" ></script><script src="/js/main.js" ></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="/js/third-party/fireworks.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><script src="/js/search/local-search.js"></script></body></html>
