@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>撒狗粮专用Hexo主题：hexo-theme-love</title>
+      <link href="/post/hexo-theme-love-for-couples/"/>
+      <url>/post/hexo-theme-love-for-couples/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Love"><a href="#Love" class="headerlink" title="Love"></a>Love</h1><blockquote><p>Love make the impossible possible. 爱让不可能变为可能。</p></blockquote><p><a href="https://github.com/jiehua1995/hexo-theme-love/wiki/English-README.md" target="_blank" rel="noopener">【English README.md】</a><br><a href="https://github.com/jiehua1995/hexo-theme-love/wiki/%E4%B8%AD%E6%96%87-README.md" target="_blank" rel="noopener">【中文说明文档】</a></p><p>Love is a HEXO theme designed for couples.</p><p><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/jiehua1995/CDN@master/ImageHosing/20200520010416.png"  alt="hexo-theme-love"></p><h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><ul><li>Clone</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> your_blog_boot_dir</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/jiehua1995/hexo-theme-love.git themes/love</span><br></pre></td></tr></table></figure><ul><li><p>Modification</p><p>Please modify the name in the theme config file.</p><p>(Check next step: <strong>What you should do</strong>)</p><p>Set the blog config file’s theme value as love.</p></li><li><p>More about this theme, please contact me without hesitation.</p></li></ul><h2 id="What-you-should-do"><a href="#What-you-should-do" class="headerlink" title="What you should do"></a>What you should do</h2><ul><li><p>Change name in theme config file.</p><p>There is not any attitude towards your sexual orientation. Please ask me how to modify this theme if you don’t like to be called as boy or girl.</p></li></ul><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">lover:</span></span><br><span class="line">  <span class="attr">boy:</span> <span class="string">Jimmy</span> <span class="string">Kudo</span> </span><br><span class="line">  <span class="attr">girl:</span> <span class="string">Rachel</span> <span class="string">Moore</span></span><br></pre></td></tr></table></figure><ul><li><p>Change date.</p><p>Change to the start date of your love.</p></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">date:</span><br><span class="line">  start: &quot;1994-04-01 00:00:00&quot;</span><br></pre></td></tr></table></figure><h2 id="Love-proverbs-I-want-to-share-with-you"><a href="#Love-proverbs-I-want-to-share-with-you" class="headerlink" title="Love proverbs I want to share with you"></a>Love proverbs I want to share with you</h2><blockquote><p> Where there is love there is no darkness.</p><p>Love is a many splintered thing.</p><p>You never feel sleepy when you fall in love.</p><p>Love understands all languages.</p></blockquote><h2 id="Maintainers"><a href="#Maintainers" class="headerlink" title="Maintainers"></a>Maintainers</h2><p><a href="https://github.com/jiehua1995" target="_blank" rel="noopener"><img src="/" class="lazyload" data-src="https://blog.jiehua1995.xyz/img/avatar.jpeg"  height="30px"></img></a></p><h2 id="Donate"><a href="#Donate" class="headerlink" title="Donate"></a>Donate</h2><p>Can you buy me a cup of coffee? I will update this theme recently.</p><details>    <summary>QR code</summary>    <img width="600" src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/jiehua1995/CDN@master/ImageHosing/20200520024523.jpg"  alt="sponsor"></details><h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>MIT</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Computer </category>
+          
+          <category> Html </category>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Html </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>笔记|投资新手极简股票课</title>
       <link href="/post/stock-abc-for-beginners/"/>
       <url>/post/stock-abc-for-beginners/</url>
@@ -176,9 +207,9 @@
       
         <tags>
             
-            <tag> Life </tag>
-            
             <tag> Website </tag>
+            
+            <tag> Life </tag>
             
         </tags>
       
@@ -380,7 +411,7 @@
       <link href="/post/%E7%AB%8B%E4%BA%BA%E6%A5%BC%E7%A6%BB%E5%88%AB%E4%BA%8B%E8%AE%B0/"/>
       <url>/post/%E7%AB%8B%E4%BA%BA%E6%A5%BC%E7%A6%BB%E5%88%AB%E4%BA%8B%E8%AE%B0/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>I wrote a song when I graduated at 2017.</p>    <div id="aplayer-VdiREuTR" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="491711110" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"    ></div></br>等待和你偶遇，看你温柔的侧脸<p>爱的基因若能解旋，想要跟你去地球的另一端</p><p>一遍又一遍，计算你心的等电点</p> </br><p>想内切酶不甘平凡</p><p>想连接酶要把梦圆</p><p>想要，想要，想不留遗憾</p><p>结出的晶体没想象的好看</p><p>光华妖风把幻想吹干</p>  </br><p>十点十分我们说晚安</p><!--Read More--><p>生物狗像是在冒险</p><p>拉丁文双名法我也曾嘴里叨念</p><p>还是和化学系一般</p>  </br><p>白天在拖延中残喘，夜晚在放浪里狂欢</p><p>旦复旦，光华灿烂，却只留黑白相片</p><p>群英荟萃，同窗三千，来来回回多是无缘</p><p>往往自命不凡，偏偏无波无澜</p><p>一梦蹉跎、到今天</p>  </br><p>经过四年时间历练，有没有勇敢一点</p><p>恐怕秋高雁飞乱，也等待大风吹过后的鸿笺</p><p>新的起跑线，泰山顶也不是终点</p>  </br><p>要蛋白纯化一条线</p><p>要差异再明显一点</p><p>想要，想要，最好的明天</p><p>大好未来在壮丽山河之间</p><p>暑往寒来有谁在念</p>  </br><p>我曾想一生随遇而安</p><p>春天花开在谁的华年</p><p>别时难执手相看成泪眼</p><p>会不会相逢在云端</p>  </br><p>立人旁看豆梨花瓣，江湾夜观众星满天</p><p>旦复旦，卿云缦缦，黑白也绽放鲜艳</p><p>群英荟萃，同窗三千，擦肩回眸即是有缘</p><p>管他风云人物，还是平平淡淡</p><p>此心无悔到明天</p>  </br><p>生如逆旅行船，谁能同我去彼岸</p><p>看姹紫嫣红开遍，都付与复旦这四年</p>  </br><p>不悔青春虚度流年，不谈岁月流逝荏苒</p><p>旦复旦，光华灿烂，活出自我便不简单</p><p>群星三千，前程各远，相逢相离各自有缘</p><p>难忘自由无用，永记博学笃志</p><p>归来时仍是少年</p> </br><p>2017年5月4日于南区宿舍中</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>I wrote a song when I graduated at 2017.</p>    <div id="aplayer-xoUbAqOG" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="491711110" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"    ></div></br>等待和你偶遇，看你温柔的侧脸<p>爱的基因若能解旋，想要跟你去地球的另一端</p><p>一遍又一遍，计算你心的等电点</p> </br><p>想内切酶不甘平凡</p><p>想连接酶要把梦圆</p><p>想要，想要，想不留遗憾</p><p>结出的晶体没想象的好看</p><p>光华妖风把幻想吹干</p>  </br><p>十点十分我们说晚安</p><!--Read More--><p>生物狗像是在冒险</p><p>拉丁文双名法我也曾嘴里叨念</p><p>还是和化学系一般</p>  </br><p>白天在拖延中残喘，夜晚在放浪里狂欢</p><p>旦复旦，光华灿烂，却只留黑白相片</p><p>群英荟萃，同窗三千，来来回回多是无缘</p><p>往往自命不凡，偏偏无波无澜</p><p>一梦蹉跎、到今天</p>  </br><p>经过四年时间历练，有没有勇敢一点</p><p>恐怕秋高雁飞乱，也等待大风吹过后的鸿笺</p><p>新的起跑线，泰山顶也不是终点</p>  </br><p>要蛋白纯化一条线</p><p>要差异再明显一点</p><p>想要，想要，最好的明天</p><p>大好未来在壮丽山河之间</p><p>暑往寒来有谁在念</p>  </br><p>我曾想一生随遇而安</p><p>春天花开在谁的华年</p><p>别时难执手相看成泪眼</p><p>会不会相逢在云端</p>  </br><p>立人旁看豆梨花瓣，江湾夜观众星满天</p><p>旦复旦，卿云缦缦，黑白也绽放鲜艳</p><p>群英荟萃，同窗三千，擦肩回眸即是有缘</p><p>管他风云人物，还是平平淡淡</p><p>此心无悔到明天</p>  </br><p>生如逆旅行船，谁能同我去彼岸</p><p>看姹紫嫣红开遍，都付与复旦这四年</p>  </br><p>不悔青春虚度流年，不谈岁月流逝荏苒</p><p>旦复旦，光华灿烂，活出自我便不简单</p><p>群星三千，前程各远，相逢相离各自有缘</p><p>难忘自由无用，永记博学笃志</p><p>归来时仍是少年</p> </br><p>2017年5月4日于南区宿舍中</p>]]></content>
       
       
       <categories>
