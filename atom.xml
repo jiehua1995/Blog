@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.jiehua1995.xyz/"/>
-  <updated>2020-06-27T15:31:54.598Z</updated>
+  <updated>2020-07-03T08:05:47.046Z</updated>
   <id>https://blog.jiehua1995.xyz/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>学术抄袭太恶心了</title>
+    <link href="https://blog.jiehua1995.xyz/post/it_is_too_hard_to_be_a_good_scholar/"/>
+    <id>https://blog.jiehua1995.xyz/post/it_is_too_hard_to_be_a_good_scholar/</id>
+    <published>2020-07-03T07:45:08.000Z</published>
+    <updated>2020-07-03T08:05:47.046Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Life" scheme="https://blog.jiehua1995.xyz/categories/Life/"/>
+    
+      <category term="Thoughts" scheme="https://blog.jiehua1995.xyz/categories/Life/Thoughts/"/>
+    
+    
+      <category term="Life" scheme="https://blog.jiehua1995.xyz/tags/Life/"/>
+    
+      <category term="Thoughts" scheme="https://blog.jiehua1995.xyz/tags/Thoughts/"/>
+    
+  </entry>
+  
+  <entry>
     <title>做一个正直的人</title>
     <link href="https://blog.jiehua1995.xyz/post/be_an_upright_person/"/>
     <id>https://blog.jiehua1995.xyz/post/be_an_upright_person/</id>
     <published>2020-06-27T15:16:11.000Z</published>
-    <updated>2020-06-27T15:31:54.598Z</updated>
+    <updated>2020-07-03T08:07:12.083Z</updated>
     
     <summary type="html">
     
@@ -580,35 +611,6 @@
     
     
       <category term="Html" scheme="https://blog.jiehua1995.xyz/tags/Html/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>How to push codes to github</title>
-    <link href="https://blog.jiehua1995.xyz/post/how_to_push-codes_to_github/"/>
-    <id>https://blog.jiehua1995.xyz/post/how_to_push-codes_to_github/</id>
-    <published>2019-08-06T11:06:15.000Z</published>
-    <updated>2020-04-25T23:49:01.626Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Computer" scheme="https://blog.jiehua1995.xyz/categories/Computer/"/>
-    
-      <category term="Code" scheme="https://blog.jiehua1995.xyz/categories/Computer/Code/"/>
-    
-    
-      <category term="Code" scheme="https://blog.jiehua1995.xyz/tags/Code/"/>
     
   </entry>
   
