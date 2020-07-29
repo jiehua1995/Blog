@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.jiehua1995.xyz/"/>
-  <updated>2020-07-10T14:11:05.527Z</updated>
+  <updated>2020-07-29T18:19:32.761Z</updated>
   <id>https://blog.jiehua1995.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>芯片探针表达矩阵转化为基因表达矩阵</title>
+    <link href="https://blog.jiehua1995.xyz/post/prob_to_gene_symbol/"/>
+    <id>https://blog.jiehua1995.xyz/post/prob_to_gene_symbol/</id>
+    <published>2020-07-29T18:12:58.000Z</published>
+    <updated>2020-07-29T18:19:32.761Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="SCI" scheme="https://blog.jiehua1995.xyz/categories/SCI/"/>
+    
+      <category term="RNA-seq" scheme="https://blog.jiehua1995.xyz/categories/SCI/RNA-seq/"/>
+    
+    
+      <category term="SCI" scheme="https://blog.jiehua1995.xyz/tags/SCI/"/>
+    
+  </entry>
   
   <entry>
     <title>学术抄袭太恶心了</title>
@@ -582,35 +611,6 @@
     
     
       <category term="SCI" scheme="https://blog.jiehua1995.xyz/tags/SCI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何在html中动态显示当前时间</title>
-    <link href="https://blog.jiehua1995.xyz/post/show_date_in_html/"/>
-    <id>https://blog.jiehua1995.xyz/post/show_date_in_html/</id>
-    <published>2019-08-06T13:07:29.000Z</published>
-    <updated>2020-04-25T23:52:26.872Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Computer" scheme="https://blog.jiehua1995.xyz/categories/Computer/"/>
-    
-      <category term="Html" scheme="https://blog.jiehua1995.xyz/categories/Computer/Html/"/>
-    
-    
-      <category term="Html" scheme="https://blog.jiehua1995.xyz/tags/Html/"/>
     
   </entry>
   
