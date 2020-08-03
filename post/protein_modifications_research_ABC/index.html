@@ -1,0 +1,240 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>蛋白翻译后修饰ABC | Protein Modifications Research ABC | 青行三の个人博客</title><meta name="description" content="蛋白翻译后修饰ABC | Protein Modifications Research ABC"><meta name="keywords" content="SCI"><meta name="author" content="Jie"><meta name="copyright" content="Jie"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://www.google-analytics.com" crossorigin="crossorigin"/><link rel="preconnect" href="https://hm.baidu.com"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="9OQNmkj25M"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="蛋白翻译后修饰ABC | Protein Modifications Research ABC"><meta name="twitter:description" content="蛋白翻译后修饰ABC | Protein Modifications Research ABC"><meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/GeneticCode21-version-2.svg/330px-GeneticCode21-version-2.svg.png"><meta property="og:type" content="article"><meta property="og:title" content="蛋白翻译后修饰ABC | Protein Modifications Research ABC"><meta property="og:url" content="https://blog.jiehua1995.xyz/post/protein_modifications_research_ABC/"><meta property="og:site_name" content="青行三の个人博客"><meta property="og:description" content="蛋白翻译后修饰ABC | Protein Modifications Research ABC"><meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/GeneticCode21-version-2.svg/330px-GeneticCode21-version-2.svg.png"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css" ><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="canonical" href="https://blog.jiehua1995.xyz/post/protein_modifications_research_ABC/"><link rel="next" title="芯片探针表达矩阵转化为基因表达矩阵" href="https://blog.jiehua1995.xyz/post/prob_to_gene_symbol/"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?cd49e50cd40685286dd32365be48c5d0";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-86660611-1', 'auto');
+ga('send', 'pageview');
+</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  bookmark: {
+    message_prev: 'Press',
+    message_next: 'to bookmark this page'
+  },
+  runtime_unit: 'days',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: {"bookmark":{"message_prev":"Press","message_next":"to bookmark this page"},"chs_to_cht":"Traditional Chinese Activated Manually","cht_to_chs":"Simplified Chinese Activated Manually","day_to_night":"Dark Mode Activated Manually","night_to_day":"Light Mode Activated Manually","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
+  baiduPush: true,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: 'false',
+  isFontAwesomeV5: false,
+  isPhotoFigcaption: true
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isSidebar: false  
+  }</script><noscript><style>
+#page-header {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/79f83cdd.js","daovoice")</script><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="青行三の个人博客" type="application/atom+xml">
+</head><body><canvas class="fireworks"></canvas><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.jpeg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">24</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">Tags</div><div class="length_num">15</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">Categories</div><div class="length_num">17</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="https://travellings.now.sh" target="_blank" rel="noopener"><i class="fa-fw fa fa-plane"></i><span> Travelling</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> Entertainment</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/books/"><i class="fa-fw fa fa-book"></i><span> Books</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> Movies</span></a></li><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/photos/"><i class="fa-fw fa fa-picture-o"></i><span> Photos</span></a></li><li><a class="site-page" href="/bangumis/"><i class="fa-fw fa fa-video-camera"></i><span> Bilibili</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-th-list" aria-hidden="true"></i><span> Websites</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://nav.jiehua1995.xyz" target="_blank" rel="noopener"><i class="fa-fw fa fa-map-o"></i><span> Navigation</span></a></li><li><a class="site-page" href="https://abc.jiehua1995.xyz" target="_blank" rel="noopener"><i class="fa-fw fa fa-search"></i><span> Search</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> Friends</span></a></div></div></div></div><div id="body-wrap"><div class="post-bg" id="nav" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/GeneticCode21-version-2.svg/330px-GeneticCode21-version-2.svg.png)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">青行三の个人博客</a></span><span class="pull_right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="https://travellings.now.sh" target="_blank" rel="noopener"><i class="fa-fw fa fa-plane"></i><span> Travelling</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-list" aria-hidden="true"></i><span> Entertainment</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/books/"><i class="fa-fw fa fa-book"></i><span> Books</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fa fa-film"></i><span> Movies</span></a></li><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/photos/"><i class="fa-fw fa fa-picture-o"></i><span> Photos</span></a></li><li><a class="site-page" href="/bangumis/"><i class="fa-fw fa fa-video-camera"></i><span> Bilibili</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-th-list" aria-hidden="true"></i><span> Websites</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="https://nav.jiehua1995.xyz" target="_blank" rel="noopener"><i class="fa-fw fa fa-map-o"></i><span> Navigation</span></a></li><li><a class="site-page" href="https://abc.jiehua1995.xyz" target="_blank" rel="noopener"><i class="fa-fw fa fa-search"></i><span> Search</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> Friends</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="post-info"><div id="post-title"><div class="posttitle">蛋白翻译后修饰ABC | Protein Modifications Research ABC</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="Created 2020-08-04 00:20:56"><i class="fa fa-calendar" aria-hidden="true"></i> Created 2020-08-04</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="Updated 2020-08-04 00:45:00"><i class="fa fa-history" aria-hidden="true"></i> Updated 2020-08-04</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/SCI/">SCI</a><i class="fa fa-angle-right post-meta__separator" aria-hidden="true"></i><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/SCI/Biochemistry/">Biochemistry</a></span></div><div class="meta-secondline"> <span class="post-meta-wordcount"><i class="post-meta__icon fa fa-file-word-o" aria-hidden="true"></i><span>Word count:</span><span class="word-count">4.1k</span><span class="post-meta__separator">|</span><i class="post-meta__icon fa fa-clock-o" aria-hidden="true"></i><span>Reading time: 12 min</span></span></div><div class="meta-thirdline"><span class="post-meta-pv-cv"><span class="post-meta__separator">|</span><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>Post View:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"><span class="post-meta__separator">|</span><i class="post-meta__icon fa fa-comment-o" aria-hidden="true"></i><span>Comments:</span><a href="/post/protein_modifications_research_ABC/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/post/protein_modifications_research_ABC/" itemprop="commentCount"></span></a></span></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div id="article-container"><blockquote>
+<p>引用来源： <a href="http://www.360doc.com/content/19/0329/21/52645714_825159555.shtml" target="_blank" rel="noopener">http://www.360doc.com/content/19/0329/21/52645714_825159555.shtml</a></p>
+<ol>
+<li>对蛋白修饰位点的氨基酸进行点突变</li>
+</ol>
+<p><strong><em>磷酸化修饰</em></strong>常常发生的氨基酸残基包括丝氨酸（Ser，S）、苏氨酸（Thr，T）和酪氨酸（Tyr，Y）。对于氨基酸位点的突变，以氨基酸的结构、空间位阻和电荷的相似性或差异性为基础，一般遵从下列规律：制备功能失活型突变体，常常会把原来的氨基酸残基替换为结构差异比较大的氨基酸残基。例如，会把丝氨酸（Ser，S）和苏氨酸（Thr，T）突变为丙氨酸（Ala，A），而把酪氨酸（Tyr，Y）突变为苯丙氨酸（Phe，F）。在命名和标记上会用原来的氨基酸名称 + 氨基酸位点数字 + 突变后的氨基酸名称来表示，如 S312A，代表把某一个蛋白的第 312 位 Ser 突变为 Ala。而制备功能组成型激活突变体，会把 Ser、Thr 或 Tyr 突变为一些酸性氨基酸，如谷氨酸（Glu，E）或天冬氨酸（Asp，D）。</p>
+<p>在研究<strong><em>泛素化修饰</em></strong>的时候，大多数都要制备功能失活型突变体，而泛素常常偶联的氨基酸残基是赖氨酸（Lysine，K），按照氨基酸突变的规律，常常会把可能被泛素化的潜在目的蛋白的赖氨酸（Lysine，K）位点突变为精氨酸（Arginine，R）。而在进行多泛素偶联的研究时，会利用泛素表达载体、泛素连接酶表达载体以及被泛素化的潜在目的蛋白表达载体（分别带有不同标签）进行过表达后进行免疫沉淀和免疫印迹分析，这时常常会考虑泛素之间的连接位点，如 K48 位多泛素连接，就会在构建泛素表达载体时，把泛素短肽当中除 K48 位以外的所有其他赖氨酸位点都突变为精氨酸，我们把这种表达载体为泛素化位点特异性表达载体，类似的位点特异性表达载体还有 K63、K11、K27、K29 等不同位点特异性泛素表达载体。当然，也会只单单把泛素短肽当中可能进行多泛素化连接的位点（如 K48、K63、K11、K27、K29 等不同位点）突变为精氨酸（Arginine，R），以干扰在这个位点进行多泛素化连接，这样就可以更清楚某一个位点进行多泛素化连接的作用。这些不同类型的表达载体可以在很多商品化载体供应商（如 Addgene 等）订购到，可以大大节省大家构建的时间。</p>
+<p>而在进行<strong><em>类泛素（SUMO）化修饰</em></strong>的研究时，会利用 SUMO 化表达载体、SUMO 化连接酶表达载体以及被 SUMO 化的潜在目的蛋白表达载体进行过表达后进行免疫沉淀和免疫印迹分析。只是 SUMO 化又细分为 SUMO1、SUMO2、SUMO3 和 SUMO4 几种不同的短肽，并且也都分别有带不同标签的商品化表达载体供大家订购使用。</p>
+<p>对于多种<strong><em>酰化（含乙酰、琥珀酰、丙二酰等）修饰</em></strong>，因为大多数酰化会偶联在蛋白的赖氨酸位点（Lysine，K），所以制备功能失活型突变体时，也同样会把原来的赖氨酸位点（Lysine，K）突变为精氨酸（Arginine，R）。</p>
+<p>对于<strong><em>甲基化修饰</em></strong>，因为甲基化会偶联在蛋白的赖氨酸（Lysine，K）（赖氨酸可偶联单甲基化、二甲基化和三甲基化）或精氨酸（Arginine，R）（精氨酸可偶联单甲基化、对称二甲基化和非对称二甲基化）位点，所以制备功能失活型突变体时，也同样会把原来的赖氨酸位点（Lysine，K）突变为精氨酸（Arginine，R），而把精氨酸（Arginine，R）反而突变为赖氨酸位点（Lysine，K）。</p>
+<p>对于<strong><em>糖基化</em></strong>，主要分为连接于天冬酰胺残基（常常位于 Asn–X–Ser/Thr 保守基序中）的酰胺氮原子的 N - 糖基化，连接于丝氨酸和苏氨酸残基的羟基氧的 O - 糖基化（与磷酸化不能同时发生），连接于磷酸化丝氨酸磷酸基的糖基化，以及相对较少见的连接于色氨酸残基碳的 C - 糖基化。在这里我们主要讨论前两种，N - 和 O - 糖基化。制备功能失活型突变体时，会把 N - 糖基化连接的天冬酰胺位点（Asparagine，N）突变为谷氨酰胺（Glutamine，R），而把 O - 糖基化连接的丝氨酸（Ser，S）和苏氨酸（Thr，T）突变为丙氨酸（Ala，A）。</p>
+<p>对于 <strong><em>ADP - 核糖基化（ADP-ribosylation）</em></strong>，最初被发现连接于蛋白的一些酸性氨基酸位点，如谷氨酸和天冬氨酸。后来的一系列报道也发现了别的氨基酸位点，丝氨酸、精氨酸、半胱氨酸、赖氨酸、天冬酰胺、磷酸化的丝氨酸等。</p>
+<p>大家可以根据前面已经介绍的氨基酸位点的突变规律进行相应突变即可。</p>
+<ol start="2">
+<li>修饰相关酶类的干预</li>
+</ol>
+<p>任何修饰偶联到蛋白质或从蛋白质上去除，都需要相应的酶类来实现。比如，磷酸化的添加需要激酶的作用，而磷酸化的去除需要磷酸酶的作用。其他的不同类型的修饰，也都有负责特异性添加和去除某种修饰的两大类酶。</p>
+<table>
+<thead>
+<tr>
+<th>修饰类型</th>
+<th>负责添加修饰的酶</th>
+<th>负责去除修饰的酶</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>磷酸化</td>
+<td>激酶（如 Akt，AMPK 等）</td>
+<td>磷酸酶（如 PP1、PTEN、SHP 等）</td>
+</tr>
+<tr>
+<td>泛素化</td>
+<td>E1、E2、E3 酶系统（E3 连接酶见下面链接）</td>
+<td>去泛素化酶（如 OTU1、USP 等家族成员）</td>
+</tr>
+<tr>
+<td>SUMO 化</td>
+<td>E1、E2、E3 酶系统（如 UBC9，PIAS 等）</td>
+<td>去 SUMO 化酶（Ulp、SENP 等）</td>
+</tr>
+<tr>
+<td>乙酰化</td>
+<td><a href="http://learn.cst-c.com.cn/poster_chromatin_and_epigenetic_regulation-0-0?utm_source=WeChat&utm_medium=WeChat_Banner" target="_blank" rel="noopener">乙酰化转移酶</a></td>
+<td><a href="http://learn.cst-c.com.cn/poster_chromatin_and_epigenetic_regulation-0-0?utm_source=WeChat&utm_medium=WeChat_Banner" target="_blank" rel="noopener">去乙酰化酶</a></td>
+</tr>
+<tr>
+<td>甲基化</td>
+<td><a href="http://learn.cst-c.com.cn/poster_chromatin_and_epigenetic_regulation-0-0?utm_source=WeChat&utm_medium=WeChat_Banner" target="_blank" rel="noopener">甲基化转移酶</a></td>
+<td><a href="http://learn.cst-c.com.cn/poster_chromatin_and_epigenetic_regulation-0-0?utm_source=WeChat&utm_medium=WeChat_Banner" target="_blank" rel="noopener">去甲基化酶</a></td>
+</tr>
+<tr>
+<td>糖基化</td>
+<td>寡糖转移酶（如 STT3、OGT 等）</td>
+<td>去糖基化酶（如 OGA）</td>
+</tr>
+<tr>
+<td>ADP - 核糖基化</td>
+<td>ADP 核糖基化转移酶（如 ART，Sirtuin2）ADP 核糖基化多聚酶（如 PARP）</td>
+<td>ADP 核糖基化水解酶（如 PARG）</td>
+</tr>
+</tbody></table>
+<ul>
+<li>想了解激酶组，请<a href="http://learn.cst-c.com.cn/human_kinome?utm_source=WeChat&utm_medium=WeChat_Banner" target="_blank" rel="noopener"><strong>点击这里</strong></a>下载 Human Kinome 信号通路海报</li>
+<li>想了解蛋白乙酰化、甲基化及常见组蛋白修饰，请<a href="http://learn.cst-c.com.cn/poster_chromatin_and_epigenetic_regulation-0-0?utm_source=WeChat&utm_medium=WeChat_Banner" target="_blank" rel="noopener"><strong>点击这里</strong></a>下载 Chromatin and Epigenetic regulation 系列海报</li>
+<li>想了解常见泛素 E3 连接酶，请<a href="https://www.cst-c.com.cn/contents/resources-reference-tables/ubiquitin-ligase-table/science-tables-ubiquitin?utm_source=WeChat&utm_medium=WeChat_Banner" target="_blank" rel="noopener"><strong>点击这里</strong></a></li>
+</ul>
+<p>在进行修饰研究当中，往往都需要对修饰相关酶类进行干预（<strong>增强或者抑制</strong>）。如果要对一个修饰相关酶类的作用进行增强，通常会使用野生型基因过表达载体，或利用修饰相关酶的特异性激活剂。如果要对一个修饰相关酶类的作用进行抑制，可以使用功能缺失型突变体（比如把某一个激酶的活性中心缺失或部分关键氨基酸进行突变）过表达载体，也可以使用敲减或敲除的方式，或利用酶的特异性抑制剂，在不同情况下使用。</p>
+<p>特别是在对某一种修饰进行<strong>广泛分析</strong>的时候，除了要鉴定出什么蛋白发生了修饰或发生了变化，还需要确定是什么上游的酶导致了这种修饰发生或者变化，而往往有一些参与修饰的酶（比如泛素化转移酶）有多个候选蛋白，这就需要利用一定的高通量方法（比如利用 siRNA 文库进行不同候选基因表达敲减）进行筛查，以确定到底是哪一个具体的酶。</p>
+<p><strong>还有一种研究思路，是从修饰酶类的研究作为出发点</strong>，先制备相关修饰酶类的敲除动物模型，然后在敲除动物和野生型之间进行蛋白修饰组学分析，就可以定量分析两组之间的存在修饰水平差异的蛋白，这样就很容易进一步对相关蛋白修饰功能进行分析和验证。</p>
+<ol start="3">
+<li>修饰相关蛋白功能的分析</li>
+</ol>
+<p>利用上述两个方面的材料，就可以对某个蛋白在带有修饰或不带修饰的情况下的各项功能进行分析，<strong>常见的分析包括：利用免疫荧光观测蛋白定位的变化、利用免疫功沉淀检测蛋白相互作用的变化、利用 ELISA 检测蛋白活性的变化、蛋白质结构分析等。</strong></p>
+<p>还有的情况下，要根据所研究目的蛋白的类型进行更多的检测。比如某一些转录因子的修饰，可能会利用<strong>报告基因系统检测</strong>某一个修饰对这个转录因子的转录活性的影响，或者利用<strong>染色质免疫沉淀（ChIP）技术</strong>来分析修饰前后转录因子对下游基因转录区域的结合水平是否发生变化。</p>
+<p>当然，<strong>也可以对修饰造成的多种表型进行分析</strong>，比如细胞增殖、细胞死亡、细胞迁移、细胞周期、细胞代谢产物水平等等。</p>
+</blockquote>
+<blockquote>
+<p>引用来源： <a href="http://www.360doc.com/content/18/1207/05/52645714_799882315.shtml" target="_blank" rel="noopener">http://www.360doc.com/content/18/1207/05/52645714_799882315.shtml</a></p>
+<p>蛋白修饰组学到底是怎么研究的。</p>
+<p><img src="/" class="lazyload" data-src="http://image109.360doc.com/DownloadImg/2018/12/0705/148955829_1_20181207051615621"  alt="img"></p>
+<p>图 1. 蛋白修饰组学实验流程</p>
+<p>第一步：修饰肽段的富集</p>
+<p>通常发生修饰的蛋白含量都比较低，用常规的提取方法无法获得足够后续分析的修饰蛋白，因此需要先对样本中的修饰蛋白进行富集。</p>
+<p>以磷酸化蛋白为例，它的富集方法非常多，有金属氧化物亲和色谱法（TiO2 /Al2O3…）、固相金属亲和色谱法（IMAC）、预分离色谱法、化学衍生修饰法、免疫亲和富集法等等。但目前最主流的富集方法就是 TiO2 富集法，TiO2 在酸性溶液中带正电荷，可以与磷酸化肽段产生静电作用，从而使磷酸化的肽段得到富集。</p>
+<p>不同的修饰模式的富集策略也有所不同，比如糖蛋白通常采用凝集素亲和的方法进行富集，而乙酰化主要抗体的进行富集等等。不管是哪种修饰类型，总之，第一步就是要把修饰的肽段进行富集，当我们富集到足够的修饰肽段之后，就可以拿去打质谱啦。</p>
+<p> 第二步：质谱分析</p>
+<p>刚刚我们说过，修饰与未发生修饰的蛋白主要的区别在于官能基团的存在与否，对应的也会改变蛋白的分子量，而质谱可以帮助我们识别出这些发生分子量变化的蛋白。我们在鉴定的时候，会先通过一级质谱对肽段判断，通过分子量有没有增加或减少来判断是否发生修饰。</p>
+<p>当一级质谱确定有无修饰后，再通过二级质谱进一步判断是在哪个氨基酸上增加了分子量，从而获得修饰位点的信息。获得了这些信息之后，我们就可以对这些肽段进行生信分析。</p>
+<p>第三步：生信分析</p>
+<p>生信分析其实是和我们文章最相关的部分了，因为前期的步骤都是放在 method 部分介绍，而这一部分是要需要花心思进行详细解读的，那么我们一起来看下通过生信分析可以获得什么样的信息吧。</p>
+<p>1</p>
+<p><strong>质控信息</strong></p>
+<p>当我们看到检测结果的时候，是不知道效果好不好，因此需要对结果进行质控。通常质控主要看质谱图数是否理想、谱图质量是否合格、质谱精度是否稳定等等，以证明实验做的不错，可以放心的进行后续分析。通常这一部分的结果可以放进毕业论文或者文章的附图中，不用在正文中过多介绍。</p>
+<p><img src="/" class="lazyload" data-src="http://image109.360doc.com/DownloadImg/2018/12/0705/148955829_2_20181207051615715"  alt="img"></p>
+<p>图 2. 质谱检测质量精度分布图</p>
+<p>2</p>
+<p><strong>总体情况展示</strong></p>
+<p>当我们知道质谱结果没有问题之后，就可以对结果开始分析了。分析的第一步，就是要对总体修饰情况进行统计，即发现了多少个修饰蛋白，多少个修饰肽段，以及多少个修饰位点。</p>
+<p>另外由于磷酸化会发生在丝氨酸、苏氨酸、酪氨酸上，我们还可以统计发生在这 3 种氨基酸上的磷酸化数量，不过由于它们的比例已经被研究的非常透彻（1800:200:1），通常不会有太大的差别。通过对这些修饰信息的统计，可以帮助我们了解样本的修饰情况，也为后一步的差异分析打下基础。</p>
+<p>除了修饰情况，我们还可以用 PCA 或 PLS-DA 图展示样本的情况，方便我们判断样本的重复性和组间的差异程度（和常规的转录组、蛋白组差别不大），通常放在文章中展示样本的重复性比较好，实验没什么问题，并且组间具有差异，可以往下进行分析。</p>
+<p><img src="/" class="lazyload" data-src="http://image109.360doc.com/DownloadImg/2018/12/0705/148955829_3_20181207051615793"  alt="img"></p>
+<p>图 3. 磷酸化位点和磷酸化蛋白的数量（左）和 PCA 图（右）</p>
+<p>3</p>
+<p><strong>差异蛋白情况</strong></p>
+<p>整体分析完之后，接着就是进行差异的修饰蛋白分析，差异分析可以说是文章非常重要的一环，通过对蛋白进行差异分析，我们可以得到不同比较组之间的差异情况，而这些差异的蛋白，可能就是导致不同样本之间表型差异的主要原因。在这一部分我们通常可以利用火山图或热图展示这些差异蛋白。</p>
+<p>由于这些蛋白可能与表型差异息息相关，因此，我们常常会针对这些蛋白进行 GO 和 KO 富集分析，从而了解这些差异蛋白所富集的功能，帮助我们找出与表型差异有关的通路，推测出可能存在的调控机制。这部分的分析同样和常规的转录组、蛋白组差别不大，针对富集结果，挑选出与目标相关的通路、蛋白深入讨论就可以了。</p>
+<p><img src="/" class="lazyload" data-src="http://image109.360doc.com/DownloadImg/2018/12/0705/148955829_4_20181207051615996"  alt="img"></p>
+<p>图 4. 聚类热图（左）富集分析气泡图（右）</p>
+<p>4</p>
+<p><strong>个性化分析</strong></p>
+<p>除了上诉的分析，在蛋白修饰中，还有一个非常重要的分析点——motif 分析。蛋白质的序列 motif 在蛋白中普遍存在，可以被用于蛋白质功能的预测工具。而蛋白修饰过程中通常需要相应的酶识别特定的 motif，所以对修饰蛋白的 motif 进行研究，可以帮助我们了解修饰蛋白可能参与的具体生物学功能。</p>
+<p>此外，我们还可以对修饰蛋白进行互作蛋白的 string 分析，通过蛋白质网络图了解修饰蛋白可能存在相互作用的蛋白，从而更深入的了解这些修饰蛋白的功能。另外，蛋白所处的位置不同，功能也会不一样，因此有些文章会对这些修饰蛋白进行亚细胞定位（比如用 WoLF PSORT 预测），推测修饰蛋白所处的位置。</p>
+<p>在多结构域蛋白质中，不同的结构域常常与不同的功能相联系，因此也可以用 InterProScan 预测蛋白的结构域。针对蛋白的个性化分析有各种各样，我们也可以根据不同的需求进行不同的分析。</p>
+<p><img src="/" class="lazyload" data-src="http://image109.360doc.com/DownloadImg/2018/12/0705/148955829_5_20181207051616200"  alt="img"></p>
+<p>Motif 分析结果</p>
+<p><img src="/" class="lazyload" data-src="http://image109.360doc.com/DownloadImg/2018/12/0705/148955829_6_20181207051616340"  alt="img"></p>
+<p>String 分析结果</p>
+<p>其实，现在的蛋白修饰文章套路和早期的转录组文章类似，将测序获得的结果进行分析和总结，获得一定的结论，就可以进行文章发表了。</p>
+</blockquote>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">Jie</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://blog.jiehua1995.xyz/post/protein_modifications_research_ABC/">https://blog.jiehua1995.xyz/post/protein_modifications_research_ABC/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/SCI/">SCI</a></div><div class="post_share"><div class="addtoany"><div class="a2a_kit a2a_kit_size_32 a2a_default_style"><a class="a2a_button_facebook"></a><a class="a2a_button_twitter"></a><a class="a2a_button_wechat"></a><a class="a2a_button_sina_weibo"></a><a class="a2a_button_facebook_messenger"></a><a class="a2a_button_email"></a><a class="a2a_button_copy_link"></a><a class="a2a_dd" href="https://www.addtoany.com/share" target="_blank" rel="noopener"></a></div></div><script async="async" src="https://static.addtoany.com/menu/page.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> Donate<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/Wechat.jpg" alt="Wechat Pay"/><div class="post-qr-code__desc">Wechat Pay</div></li><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/Alipay.jpg" alt="Ali Pay"/><div class="post-qr-code__desc">Ali Pay</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="next-post pull-full"><a href="/post/prob_to_gene_symbol/"><img class="next_cover lazyload" data-src="https://www.ncbi.nlm.nih.gov/geo/img/geo_main.gif" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">芯片探针表达矩阵转化为基因表达矩阵</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> Recommend</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/post/Molecular_architecture_of_lineage_allocation_and_tissue_organization_in_early_mouse_embryo/" title="Nature|景乃何/韩敬东/彭广敦等合作绘制小鼠早期胚胎发育全胚层谱系发生时空转录组图谱“ "><img class="relatedPosts_cover lazyload"data-src="https://cdn.jsdelivr.net/gh/jiehua1995/CDN@master/ImageHosing/default_cover3.jpg"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2019-08-08</div><div class="relatedPosts_title">Nature|景乃何/韩敬东/彭广敦等合作绘制小鼠早期胚胎发育全胚层谱系发生时空转录组图谱“ </div></div></a></div><div class="relatedPosts_item"><a href="/post/Volcano_Plot_Note/" title="火山图绘制笔记"><img class="relatedPosts_cover lazyload"data-src="https://img2018.cnblogs.com/blog/785692/201905/785692-20190514181354953-176571361.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-06-24</div><div class="relatedPosts_title">火山图绘制笔记</div></div></a></div><div class="relatedPosts_item"><a href="/post/prob_to_gene_symbol/" title="芯片探针表达矩阵转化为基因表达矩阵"><img class="relatedPosts_cover lazyload"data-src="https://www.ncbi.nlm.nih.gov/geo/img/geo_main.gif"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-07-30</div><div class="relatedPosts_title">芯片探针表达矩阵转化为基因表达矩阵</div></div></a></div></div><div class="clear_both"></div></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> Comment</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+
+window.valine = new Valine({
+  el:'#vcomment',
+  notify: true,
+  verify: false,
+  appId: 'oTUGEYl64DgXwvSznk6rNHWE-gzGzoHsz',
+  appKey: 'gfq1537zNoaht7OxCPO65HM3',
+  placeholder: 'Please leave your footprints',
+  avatar: 'monsterid',
+  meta: guest_info,
+  pageSize: '10',
+  lang: 'en',
+  recordIP: false,
+  serverURLs: ''
+});</script></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By Jie</div><div class="footer_custom_text">Go Ahead! <a href="https://blog.jiehua1995.xyz">I</a> will watch through the night.</div><div class="icp"><a href="https://icp.gov.moe/?keyword=20201995" target="_blank" rel="noopener"><img class="icp-icon" src="/img/ico64.png"/><span>萌ICP备20201995号</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="Read Mode"></i><i class="fa fa-plus" id="font_plus" title="Increase font size"></i><i class="fa fa-minus" id="font_minus" title="Decrease font size"></i><i class="darkmode fa fa-moon-o" id="darkmode" title="Dark Mode"></i></div><div id="rightside-config-show"><div id="rightside_config" title="Setting"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment" href="#post-comment" title="Scroll to comment"><i class="scroll_to_comment fa fa-comments">  </i></a><i class="fa fa-arrow-up" id="go-up" title="Back to top" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">Local search</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>Powered by</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js" ></script><script src="/js/utils.js" ></script><script src="/js/main.js" ></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="/js/third-party/fireworks.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script><script src="/js/search/local-search.js"></script><script>daovoice('init', {app_id: "79f83cdd"}); daovoice('update');</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":false},"react":{"opacity":0.7},"log":false});</script></body></html>

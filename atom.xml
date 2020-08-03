@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.jiehua1995.xyz/"/>
-  <updated>2020-07-29T18:19:32.761Z</updated>
+  <updated>2020-08-03T16:45:00.356Z</updated>
   <id>https://blog.jiehua1995.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>蛋白翻译后修饰ABC | Protein Modifications Research ABC</title>
+    <link href="https://blog.jiehua1995.xyz/post/protein_modifications_research_ABC/"/>
+    <id>https://blog.jiehua1995.xyz/post/protein_modifications_research_ABC/</id>
+    <published>2020-08-03T16:20:56.000Z</published>
+    <updated>2020-08-03T16:45:00.356Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="SCI" scheme="https://blog.jiehua1995.xyz/categories/SCI/"/>
+    
+      <category term="Biochemistry" scheme="https://blog.jiehua1995.xyz/categories/SCI/Biochemistry/"/>
+    
+    
+      <category term="SCI" scheme="https://blog.jiehua1995.xyz/tags/SCI/"/>
+    
+  </entry>
   
   <entry>
     <title>芯片探针表达矩阵转化为基因表达矩阵</title>
@@ -584,33 +613,6 @@
       <category term="Computer" scheme="https://blog.jiehua1995.xyz/tags/Computer/"/>
     
       <category term="Tampermonkey" scheme="https://blog.jiehua1995.xyz/tags/Tampermonkey/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Nature|景乃何/韩敬东/彭广敦等合作绘制小鼠早期胚胎发育全胚层谱系发生时空转录组图谱“ </title>
-    <link href="https://blog.jiehua1995.xyz/post/Molecular_architecture_of_lineage_allocation_and_tissue_organization_in_early_mouse_embryo/"/>
-    <id>https://blog.jiehua1995.xyz/post/Molecular_architecture_of_lineage_allocation_and_tissue_organization_in_early_mouse_embryo/</id>
-    <published>2019-08-08T14:46:40.000Z</published>
-    <updated>2020-04-25T23:50:42.391Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="SCI" scheme="https://blog.jiehua1995.xyz/categories/SCI/"/>
-    
-    
-      <category term="SCI" scheme="https://blog.jiehua1995.xyz/tags/SCI/"/>
     
   </entry>
   
