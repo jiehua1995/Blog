@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.jiehua1995.xyz/"/>
-  <updated>2020-08-03T16:45:00.356Z</updated>
+  <updated>2020-08-16T16:20:44.812Z</updated>
   <id>https://blog.jiehua1995.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>粪坑一样的学术圈还有希望吗</title>
+    <link href="https://blog.jiehua1995.xyz/post/what_a_shit_this_society_is/"/>
+    <id>https://blog.jiehua1995.xyz/post/what_a_shit_this_society_is/</id>
+    <published>2020-08-16T16:03:47.000Z</published>
+    <updated>2020-08-16T16:20:44.812Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Life" scheme="https://blog.jiehua1995.xyz/categories/Life/"/>
+    
+      <category term="Thoughts" scheme="https://blog.jiehua1995.xyz/categories/Life/Thoughts/"/>
+    
+    
+      <category term="Life" scheme="https://blog.jiehua1995.xyz/tags/Life/"/>
+    
+  </entry>
   
   <entry>
     <title>蛋白翻译后修饰ABC | Protein Modifications Research ABC</title>
@@ -582,37 +611,6 @@
     
     
       <category term="Life" scheme="https://blog.jiehua1995.xyz/tags/Life/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tampermonkey使用教程</title>
-    <link href="https://blog.jiehua1995.xyz/post/how_to_use_tampermonkey/"/>
-    <id>https://blog.jiehua1995.xyz/post/how_to_use_tampermonkey/</id>
-    <published>2019-08-11T18:08:56.000Z</published>
-    <updated>2020-05-26T16:56:07.861Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Computer" scheme="https://blog.jiehua1995.xyz/categories/Computer/"/>
-    
-      <category term="Others" scheme="https://blog.jiehua1995.xyz/categories/Computer/Others/"/>
-    
-    
-      <category term="Computer" scheme="https://blog.jiehua1995.xyz/tags/Computer/"/>
-    
-      <category term="Tampermonkey" scheme="https://blog.jiehua1995.xyz/tags/Tampermonkey/"/>
     
   </entry>
   
