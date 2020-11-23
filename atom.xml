@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.jiehua1995.xyz/"/>
-  <updated>2020-09-04T17:16:08.883Z</updated>
+  <updated>2020-09-10T16:54:05.231Z</updated>
   <id>https://blog.jiehua1995.xyz/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博士职位网站收集</title>
+    <link href="https://blog.jiehua1995.xyz/post/phd_position_websites/"/>
+    <id>https://blog.jiehua1995.xyz/post/phd_position_websites/</id>
+    <published>2020-09-10T16:28:35.000Z</published>
+    <updated>2020-09-10T16:54:05.231Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Life" scheme="https://blog.jiehua1995.xyz/categories/Life/"/>
+    
+    
+      <category term="Life" scheme="https://blog.jiehua1995.xyz/tags/Life/"/>
+    
+  </entry>
   
   <entry>
     <title>始终有站起来的顽强</title>
@@ -582,35 +609,6 @@
       <category term="Life" scheme="https://blog.jiehua1995.xyz/tags/Life/"/>
     
       <category term="Website" scheme="https://blog.jiehua1995.xyz/tags/Website/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Database_collection 资源站收集</title>
-    <link href="https://blog.jiehua1995.xyz/post/database_collection/"/>
-    <id>https://blog.jiehua1995.xyz/post/database_collection/</id>
-    <published>2019-08-18T13:14:47.000Z</published>
-    <updated>2020-05-26T17:43:36.888Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Life" scheme="https://blog.jiehua1995.xyz/categories/Life/"/>
-    
-      <category term="Reading" scheme="https://blog.jiehua1995.xyz/categories/Life/Reading/"/>
-    
-    
-      <category term="Reading" scheme="https://blog.jiehua1995.xyz/tags/Reading/"/>
     
   </entry>
   
