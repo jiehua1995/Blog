@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.jiehua1995.xyz/"/>
-  <updated>2020-11-24T14:17:29.808Z</updated>
+  <updated>2020-12-07T11:08:22.519Z</updated>
   <id>https://blog.jiehua1995.xyz/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>learning</title>
+    <link href="https://blog.jiehua1995.xyz/post/ielts_learning_notes/"/>
+    <id>https://blog.jiehua1995.xyz/post/ielts_learning_notes/</id>
+    <published>2020-12-07T11:02:13.000Z</published>
+    <updated>2020-12-07T11:08:22.519Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Learing" scheme="https://blog.jiehua1995.xyz/categories/Learing/"/>
+    
+      <category term="English" scheme="https://blog.jiehua1995.xyz/categories/Learing/English/"/>
+    
+      <category term="IELTS" scheme="https://blog.jiehua1995.xyz/categories/Learing/English/IELTS/"/>
+    
+    
+      <category term="English" scheme="https://blog.jiehua1995.xyz/tags/English/"/>
+    
+      <category term="IELTS" scheme="https://blog.jiehua1995.xyz/tags/IELTS/"/>
+    
+  </entry>
   
   <entry>
     <title>博士职位网站收集</title>
@@ -578,37 +611,6 @@
     </summary>
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>Interesting-Websites</title>
-    <link href="https://blog.jiehua1995.xyz/post/interesting_websites/"/>
-    <id>https://blog.jiehua1995.xyz/post/interesting_websites/</id>
-    <published>2019-10-04T13:27:05.000Z</published>
-    <updated>2020-04-25T23:49:22.849Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Life" scheme="https://blog.jiehua1995.xyz/categories/Life/"/>
-    
-      <category term="Tech" scheme="https://blog.jiehua1995.xyz/categories/Life/Tech/"/>
-    
-    
-      <category term="Life" scheme="https://blog.jiehua1995.xyz/tags/Life/"/>
-    
-      <category term="Website" scheme="https://blog.jiehua1995.xyz/tags/Website/"/>
     
   </entry>
   
